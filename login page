@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page</title>
+    <link rel="stylesheet" href="D:\12002080701041\style.css">
+</head>
+<body>
+    <div id="login-form-wrap">
+        <h2>Login</h2>
+        <form id="login-form">
+            <p>
+                <input type="text" name="username" id="username" placeholder="username" required>
+                <i class="valid">
+                    <span></span>
+                    <span></span>
+                </i>
+            </p>
+            <p>
+                <input type="email" name="email" id="email" placeholder="Email Address" required>
+                <i class="valid">
+                    <span></span>
+                    <span></span>
+                </i>
+            </p>
+            <input type="submit" value="login" id="login">
+        </form>
+        <div id="create-account-wrap">
+            <p>
+                "Not a members?"
+                <a href="#">Create Account</a>
+            </p>
+            <p></p>
+        </div>
+    </div>
+    //<script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-80520768-2" type="text/javascript"></script>
+    <script type="text/javascript">
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+      
+        gtag('config', 'UA-80520768-2');
+      </script>
+</body>
+</html>
